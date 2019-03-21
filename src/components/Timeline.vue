@@ -33,7 +33,7 @@
         { period: 'mid ~ late 2017', title: 'Excel VBAのYoutubeチャンネル開設', move: "fade-right",
          detail: 'ExcelVBAの情報をYoutubeで発信するため、Adobe CC の勉強を始める。悪戦苦闘しながらも６つのソフトを使いこなし、半年かけてようやく動画を投稿できるように。'},
         { period: 'late 2017', title: 'ブロックチェーンを知る', move: "fade-left",
-         detail: '「ブロックチェーン・レボリューション」という本を購入し。激動の時代が来る予感を感じ「創れる人」にならなければと思う。ExcelVBA以外のプログラムを探す。'},
+         detail: '「ブロックチェーン・レボリューション」という本に出会う。激動の時代が来る予感を感じ「創れる人」にならなければと思う。ExcelVBA以外のプログラムを探す。'},
         { period: 'early 2018', title: 'Pythonとの出会い', move: "fade-right", 
          detail: '「Office製品が将来Pythonという言語で実装できるらしい」という話を聞きPythonに興味を持ち、学び始める。'},
         { period: 'mid 2018', title: 'データ分析に興味を持つ', move: "fade-left", 
