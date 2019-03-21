@@ -42,13 +42,13 @@
       <v-avatar data-aos="zoom-in-down" data-aos-delay="600" size="256px">
         <img :src="require('./assets/yomizou_face.png')">
       </v-avatar>
-      <div class="gucha">
+      <div>
         <h1 class="display-1 white--text font-weight-bold">
-          <div class="inline" data-aos="slide-left" data-aos-delay="1200"><span class="display-4 font-weight-bold lime--text">P</span>lease </div>
-          <div class="inline" data-aos="flip-right" data-aos-delay="1800"><span class="display-4 font-weight-bold lime--text">E</span>mploy </div>
+          <div class="inline" data-aos="slide-left" data-aos-delay="1200"><span class="display-4 font-weight-bold lime--text">T</span>moyuki</div>
+          <div class="inline" data-aos="flip-right" data-aos-delay="1800"><span class="display-4 font-weight-bold lime--text">Y</span>omiyama </div>
           <div class="inline" data-aos="fade" data-aos-delay="2400">
-            <span class="display-4 font-weight-bold lime--text">M</span>e 
-            <span class="display-4 font-weight-bold lime--text">!</span>
+            <!-- <span class="display-4 font-weight-bold lime--text">Y</span>omiyama  -->
+            <span class="display-4 font-weight-bold lime--text">PEM!</span>
           </div>
         </h1>
       </div>

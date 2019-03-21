@@ -36,7 +36,7 @@
          detail: '「ブロックチェーン革命」という本を購入し。激動の時代が来る予感。'},
         { period: 'mid 2018', title: 'Pythonとの出会い', move: "fade-right",
          detail: '「Office製品が将来Pythonという言語で実装できるらしい」という話を聞きPythonに興味を持ち、学び始める。基礎が終わるとデータ分析に興味を持ち、jupyterを使いpandas, numpy等を学ぶ。この頃からプログラマへの転職を考える。'},
-        { period: 'mid 2018 ~ 2019', title: 'WEB系の知識全般の学習', move: "fade-left",
+        { period: 'late 2018 ~ 2019', title: 'WEB系の知識全般の学習', move: "fade-left",
          detail: 'Ruby, PHP, HTML&CSS, JS, Vue, etc... を学習。'},
       ],
       mini: false,
