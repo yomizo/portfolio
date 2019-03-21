@@ -10,13 +10,13 @@
         </v-img>
         <v-card-title>
           <div class="mx-auto">
-            <span class="subheading lime--text">Landing Page</span><br>
+            <span class="subheading lime--text">Portfolio Page</span><br>
             <span class="white--text">イラストレーター Seymour様</span><br>
             <span class="white--text">Semantic ui, Vue.js</span>
           </div>
         </v-card-title>
         <v-card-actions class="mx-auto">
-          <v-btn flat color="lime"><span><v-icon>fab fa-github</v-icon></span>Github</v-btn>
+          <v-btn href="https://github.com/yomizo/illustrator_site" target="_blank" flat color="lime"><span><v-icon>fab fa-github</v-icon></span>Github</v-btn>
           <v-btn flat color="lime">Demo</v-btn>
         </v-card-actions>
       <!-- </v-responsive> -->

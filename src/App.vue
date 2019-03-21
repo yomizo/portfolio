@@ -69,9 +69,9 @@
       </v-flex>
       <v-layout py-5 justify-center v-bind="binding"
        class="lime--text text-xs-center">
-        <Card data-aos="flip-down" data-aos-delay="200"/>
-        <Card2 data-aos="flip-down" data-aos-delay="200"/>
         <Card3 data-aos="flip-down" data-aos-delay="200"/>
+        <Card2 data-aos="flip-down" data-aos-delay="200"/>
+        <Card data-aos="flip-down" data-aos-delay="200"/>
       </v-layout>
     </v-layout>
     <v-layout

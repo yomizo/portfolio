@@ -10,13 +10,13 @@
         </v-img>
         <v-card-title>
           <div class="mx-auto">
-            <span class="subheading lime--text">Landing Page</span><br>
+            <span class="subheading lime--text">This Page</span><br>
             <span class="white--text">当サイト</span><br>
             <span class="white--text">Vue.js, Vuetify</span>
           </div>
         </v-card-title>
         <v-card-actions class="mx-auto">
-          <v-btn flat color="lime"><span><v-icon>fab fa-github</v-icon></span>Github</v-btn>
+          <v-btn href="https://github.com/yomizo/portfolio" target="_blank" flat color="lime"><span><v-icon>fab fa-github</v-icon></span>Github</v-btn>
         </v-card-actions>
       <!-- </v-responsive> -->
     </v-card>

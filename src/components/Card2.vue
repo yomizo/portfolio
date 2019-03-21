@@ -16,7 +16,7 @@
           </div>
         </v-card-title>
         <v-card-actions class="mx-auto">
-          <v-btn flat color="lime"><span><v-icon>fab fa-github</v-icon></span>Github</v-btn>
+          <v-btn href="https://github.com/yomizo/mosha_isara" target="_blank" flat color="lime"><span><v-icon>fab fa-github</v-icon></span>Github</v-btn>
           <v-btn flat color="lime">Demo</v-btn>
         </v-card-actions>
       <!-- </v-responsive> -->
