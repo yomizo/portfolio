@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <!-- MENU BTN RIGHT BOTTOM -->
+<!-- MENU BTN RIGHT BOTTOM -->
     <v-speed-dial
       v-model="fab"
       bottom
@@ -30,9 +30,9 @@
         <v-icon>{{btn.name}}</v-icon>
       </v-btn>
     </v-speed-dial>
-    <!-- TOOLBAR -->
+<!-- TOOLBAR -->
     <ToolBar/>
-    <!-- TOP -->
+<!-- TOP -->
     <v-layout
      id="top"
      class="section grey darken-4 lime--text"
@@ -44,7 +44,7 @@
       </v-avatar>
       <div>
         <h1 class="display-1 white--text font-weight-bold">
-          <div class="inline" data-aos="slide-left" data-aos-delay="1200"><span class="display-4 font-weight-bold lime--text">T</span>moyuki</div>
+          <div class="inline" data-aos="slide-left" data-aos-delay="1200"><span class="display-4 font-weight-bold lime--text">T</span>omoyuki</div>
           <div class="inline" data-aos="flip-right" data-aos-delay="1800"><span class="display-4 font-weight-bold lime--text">Y</span>omiyama </div>
           <div class="inline" data-aos="fade" data-aos-delay="2400">
             <!-- <span class="display-4 font-weight-bold lime--text">Y</span>omiyama  -->
@@ -53,7 +53,7 @@
         </h1>
       </div>
     </v-layout>
-    <!-- PORTFOLIO -->
+<!-- PORTFOLIO -->
     <v-layout
      id="portfolio"
      py-5
@@ -74,6 +74,7 @@
         <Card data-aos="flip-down" data-aos-delay="200"/>
       </v-layout>
     </v-layout>
+<!-- SKILLS     -->
     <v-layout
      id="skills"
      py-5
@@ -115,6 +116,7 @@
         <Progress3 data-aos="fade-up" />                
       </v-container>
     </v-layout>
+<!-- HISTORY     -->
     <v-layout 
      id="history"
      class="grey darken-1 section"
@@ -131,6 +133,7 @@
         <Timeline></Timeline>
       </v-container>
     </v-layout>
+<!-- CONTACT -->
     <v-layout
      id="contact"
      class="grey darken-4 section"
@@ -145,6 +148,7 @@
       </v-flex>
       <Contact2/>
     </v-layout>
+<!-- FOOTER     -->
     <Footer/>
   </v-app>
 </template>

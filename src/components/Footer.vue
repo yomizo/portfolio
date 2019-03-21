@@ -10,10 +10,10 @@
       tile
     >
       <v-card-title class="grey darken-4">
-        <strong class="subheading">Get connected with me on social networks!</strong>
-
+          <div><strong class="subheading">Hobby: </strong></div>
+          <div>プログラミング, 卓球, NBA鑑賞, DIY</div>
         <v-spacer></v-spacer>
-
+<!-- RIGHT_SIDE_BTN -->
         <v-btn
           v-for="icon in icons"
           :key="icon.id"
