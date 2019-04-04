@@ -39,15 +39,14 @@
      justify-center
      v-bind="binding" 
      align-center>
-      <v-avatar data-aos="zoom-in-down" data-aos-delay="600" size="256px">
+      <v-avatar data-aos="zoom-in-out" data-aos-delay="600" size="256px">
         <img :src="require('./assets/yomizou_face.png')">
       </v-avatar>
       <div>
         <h1 class="display-1 white--text font-weight-bold">
-          <div class="inline" data-aos="slide-left" data-aos-delay="1200"><span class="display-4 font-weight-bold lime--text">T</span>omoyuki</div>
+          <div class="inline" data-aos="slide-up" data-aos-delay="1200"><span class="display-4 font-weight-bold lime--text">T</span>omoyuki</div>
           <div class="inline" data-aos="flip-right" data-aos-delay="1800"><span class="display-4 font-weight-bold lime--text">Y</span>omiyama </div>
           <div class="inline" data-aos="fade" data-aos-delay="2400">
-            <!-- <span class="display-4 font-weight-bold lime--text">Y</span>omiyama  -->
             <span class="display-4 font-weight-bold lime--text">PEM!</span>
           </div>
         </h1>
@@ -72,6 +71,7 @@
         <Card3 data-aos="flip-down" data-aos-delay="200"/>
         <Card2 data-aos="flip-down" data-aos-delay="200"/>
         <Card data-aos="flip-down" data-aos-delay="200"/>
+        <Card4 data-aos="flip-down" data-aos-delay="200"/>
       </v-layout>
     </v-layout>
 <!-- SKILLS     -->
@@ -161,6 +161,7 @@ import Footer from './components/Footer'
 import Card from './components/Card'
 import Card2 from './components/Card2'
 import Card3 from './components/Card3'
+import Card4 from './components/Card4'
 import Progress from './components/Progress'
 import Progress2 from './components/Progress2'
 import Progress3 from './components/Progress3'
@@ -175,6 +176,7 @@ export default {
     Card,
     Card2,
     Card3,
+    Card4,
     Progress,
     Progress2,
     Progress3,
@@ -209,6 +211,10 @@ export default {
 </script>
 
 <style>
+v-app{
+  margin:0;
+  padding:0;
+}
 .section {
   min-height:100vh;
 }

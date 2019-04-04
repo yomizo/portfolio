@@ -1,5 +1,5 @@
 <template>
-  <v-flex xs12 sm6 md4 lg3 ma-2>
+  <v-flex xs12 sm6 md3 lg3 ma-4>
     <v-card class="custom-card grey darken-4" hover>
         <!-- <v-responsive :aspect-ratio="16/9" class="grey darken-4"> -->
         <v-img
