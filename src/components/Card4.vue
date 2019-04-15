@@ -1,11 +1,11 @@
 <template>
   <v-flex xs12 sm6 md3 lg3 ma-4>
     <v-card class="custom-card grey darken-4" hover>
-        <!-- <v-responsive :aspect-ratio="16/9" class="grey darken-4"> -->
         <v-img
           class="white--text"
           aspect-ratio
           :src="require('../assets/wagahee.png')"
+          :lazy-src="require('../assets/wagahee.png')"
         />
       <v-card-title>
         <div class="mx-auto">
@@ -33,5 +33,13 @@
 <style>
 .custom-card{
   border-radius: 4px;
+}
+
+.vuetify-lazy-image {
+  filter: blur(10px);
+  transition: filter 0.7s;
+}
+.vuetify-lazy-image-loaded {
+  filter: blur(0);
 }
 </style>

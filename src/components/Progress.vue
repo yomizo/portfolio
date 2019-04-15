@@ -16,10 +16,8 @@
 <script>
   export default {
     data: () => ({
-      interval: {},
-      i: 0,
-      addValue: null,
       offset: 0,
+      top: 0,
       skills: [
         {
           lang: 'HTML&CSS',
@@ -55,20 +53,37 @@
       }),
       methods: {
         run: function(){
-          setInterval(() =>{
-            this.skills.forEach(skill =>{
-              if(skill.start != skill.value){
-                skill.start = Number(skill.start)
-                return(skill.start += 10)
-              }
-           })
-         }, 500)}
+          this.top = this.scrollTop()
+          if(this.top >= this.offset) {
+            setInterval(() =>{
+              this.skills.forEach(skill =>{
+                if(skill.start != skill.value){
+                  skill.start = Number(skill.start)
+                  return(skill.start += 10)
+                }
+              })
+            }, 600)
+          }
+        },
+        scrollTop() {
+          let tgt
+          if ('scrollingElement' in document) {
+            tgt = document.scrollingElement
+          } else if (this.browser.isWebKit) {
+            tgt = document.body
+          } else {
+            tgt = document.documentElement
+          }
+          return tgt.scrollTop
+        }
       },
-      created(){
-        window.addEventListener('scroll', this.run())
+      mounted(){
+        const FPS = 1000 / 60
+        this.offset = document.getElementById('prg1').offsetTop - window.innerHeight
+        document.addEventListener('scroll', _.throttle(this.run, FPS), {passive: true})
       },
       destroyed(){
-        window.removeEventListener('scroll', this.run)
+        document.removeEventListener('scroll', this.run)
       }
   }
 </script>

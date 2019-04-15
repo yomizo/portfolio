@@ -5,7 +5,7 @@ import './plugins/vuetify'
 import App from './App.vue'
 import firebase from "firebase"
 import 'vuetify/src/stylus/app.styl'
-
+import _ from 'lodash'
 
 
 Vue.config.productionTip = false

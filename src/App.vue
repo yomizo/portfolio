@@ -20,6 +20,7 @@
         <v-icon>close</v-icon>
       </v-btn>
       <v-btn
+        class="btn"
         v-for="btn in btns" 
         right
         round
@@ -242,6 +243,8 @@ span{
 .inline {
   display: inline-block;
 }
-
+.btn {
+  width:110px;
+}
 </style>
 
