@@ -22,12 +22,12 @@
         {
           lang: 'Vue.js',
           color: '#00c853',
-          value: '60'
+          value: '70'
         },
         {
-          lang: 'Vuetify',
-          color:  '#2979ff',
-          value: '70'
+          lang: 'Rails',
+          color:  '#ff1744',
+          value: '60'
         },     
         {
           lang: 'Bulma',

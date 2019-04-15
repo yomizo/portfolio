@@ -11,7 +11,7 @@
           class="white--text" 
           v-for="(mn, i) in items" 
           :key="i"  
-          :href="mn.href"
+          @click="$vuetify.goTo(mn.href)"
           flat>
           {{mn.title}}
         </v-btn>

@@ -21,13 +21,15 @@
       </v-btn>
       <v-btn
         v-for="btn in btns" 
-        fab
+        right
+        round
         dark
         small
         :color="btn.color"
-        :href="btn.link"
+        @click="$vuetify.goTo(btn.link)"
       >
         <v-icon>{{btn.name}}</v-icon>
+        {{btn.title}}
       </v-btn>
     </v-speed-dial>
 <!-- TOOLBAR -->
@@ -154,7 +156,7 @@
 </template>
 
 <script>
-
+import * as easings from 'vuetify/es5/util/easing-patterns'
 
 import ToolBar from './components/ToolBar'
 import Footer from './components/Footer'
@@ -189,11 +191,11 @@ export default {
     tabs: null,
     transition: 'slide-y-reverse-transition',
     btns: [
-      {name: "contact_mail", color: "lime", link:"#contact"},
-      {name: "history", color: "lime", link: "#history"},
-      {name: "keyboard", color: "lime", link: "#skills"},
-      {name: "phonelink", color: "lime", link: "#portfolio"},
-      {name: "expand_less", color: "lime", link: "#top"},
+      {name: "contact_mail", color: "lime", link:"#contact", title: "CONTACT"},
+      {name: "history", color: "lime", link: "#history", title: "HISTORY"},
+      {name: "keyboard", color: "lime", link: "#skills", title: "SKILLS"},
+      {name: "phonelink", color: "lime", link: "#portfolio", title: "PORTFOLIO"},
+      {name: "expand_less", color: "lime", link: "#top", title: "TOP"},
     ]
   }),
   computed:{
@@ -204,9 +206,6 @@ export default {
       return binding
     },  
   },
-  created(){
-    AOS.init();
-  }
 }
 </script>
 

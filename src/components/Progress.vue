@@ -1,5 +1,5 @@
 <template>
-  <div @scroll="run" class="text-xs-center subheading">
+  <div id="prg1" class="text-xs-center subheading">
     <v-progress-circular
       v-for="skill in skills"
       rotate="-90"
@@ -19,6 +19,7 @@
       interval: {},
       i: 0,
       addValue: null,
+      offset: 0,
       skills: [
         {
           lang: 'HTML&CSS',
@@ -30,20 +31,20 @@
           lang: 'JavaScript',
           color:  '#ffd600',
           start: '0',
-          value: '40'
+          value: '70'
         },
+        {
+          lang: 'Ruby',
+          color:  '#ff1744',
+          start: '0',
+          value: '70'
+        },            
         {
           lang: 'Python',
           color:  '#00e5ff',
           start: '0',
           value: '60'
-        },     
-        {
-          lang: 'Ruby',
-          color:  '#ff1744',
-          start: '0',
-          value: '50'
-        },     
+        },      
         {
           lang: 'PHP',
           color:  '#00b0ff',
@@ -64,7 +65,7 @@
          }, 500)}
       },
       created(){
-        window.addEventListener('scroll', this.run)
+        window.addEventListener('scroll', this.run())
       },
       destroyed(){
         window.removeEventListener('scroll', this.run)

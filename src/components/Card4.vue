@@ -2,12 +2,11 @@
   <v-flex xs12 sm6 md3 lg3 ma-4>
     <v-card class="custom-card grey darken-4" hover>
         <!-- <v-responsive :aspect-ratio="16/9" class="grey darken-4"> -->
-      <v-img
-        class="white--text"
-        aspect-ratio
-        :src="require('../assets/wagahee.png')"
-      >
-      </v-img>        
+        <v-img
+          class="white--text"
+          aspect-ratio
+          :src="require('../assets/wagahee.png')"
+        />
       <v-card-title>
         <div class="mx-auto">
           <span class="subheading lime--text">悟空語変換</span><br>
@@ -24,9 +23,10 @@
 </template>
 
 <script>
+
   export default {
     data: () => ({
-    })
+    }),
   }
 </script>
 
