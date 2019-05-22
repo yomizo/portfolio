@@ -21,7 +21,8 @@
       </v-btn>
       <v-btn
         class="btn"
-        v-for="btn in btns" 
+        v-for="(btn, i) in btns"
+        :key="i"
         right
         round
         dark
