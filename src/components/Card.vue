@@ -5,18 +5,18 @@
         <v-img
           class="white--text"
           aspect-ratio
-          :src="require('../assets/p-img.png')"
+          :src="require('../assets/respects.jpg')"
         >
         </v-img>
         <v-card-title>
           <div class="mx-auto">
-            <span class="subheading lime--text">Portfolio Page</span><br>
-            <span class="white--text">イラストレーター Seymour様</span><br>
-            <span class="white--text">Semantic ui, Vue.js</span>
+            <span class="subheading lime--text">開発記録</span><br>
+            <span class="white--text">Wantedly内の記事</span><br>
+            <!-- <span class="white--text"></span> -->
           </div>
         </v-card-title>
         <v-card-actions class="mx-auto">
-          <v-btn href="https://github.com/yomizo/illustrator_site" target="_blank" flat color="lime"><span><v-icon>fab fa-github</v-icon></span>Github</v-btn>
+          <v-btn href="https://www.wantedly.com/users/100781197/post_articles/169707" target="_blank" flat color="lime">記事へのリンク</v-btn>
           <!-- <v-btn flat color="lime">Demo</v-btn> -->
         </v-card-actions>
       <!-- </v-responsive> -->
@@ -27,10 +27,8 @@
 <script>
   export default {
     data: () => ({
-      carditems:[
-        {img: '../assets/p-img.png', title: "Landing Page", user: "イラストレーター「Seymour」様", lang: "Semantic ui, Vue.js"},
-        {img: "@/assets/p-img.png", title: "Landing Page", user: "イラストレーター「Seymour」様", lang: "Semantic ui, Vue.js"},
-      ]
+      // carditems:[
+      // ]
     })
   }
 </script>
