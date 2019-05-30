@@ -5,19 +5,19 @@
         <v-img
           class="white--text"
           aspect-ratio
-          :src="require('../assets/isara_mosha.png')"
+          :src="require('../assets/top1_ogp.jpg')"
         >
         </v-img>
         <v-card-title>
           <div class="mx-auto">
-            <span class="subheading lime--text">Landing Page</span><br>
-            <span class="white--text">模写コーディング</span><br>
-            <span class="white--text">Pug, Sass, gulp</span>
+            <span class="subheading lime--text">WEBアプリ</span><br>
+            <span class="white--text">RESPECTS!</span><br>
+            <span class="white--text">Ruby, RailsAPI, Vue, Heroku, Firebase</span>
           </div>
         </v-card-title>
         <v-card-actions class="mx-auto">
-          <v-btn href="https://github.com/yomizo/mosha_isara" target="_blank" flat color="lime"><span><v-icon>fab fa-github</v-icon></span>Github</v-btn>
-          <!-- <v-btn flat color="lime">Demo</v-btn> -->
+          <v-btn href="https://github.com/yomizo/respect-app" target="_blank" flat color="lime"><span><v-icon>fab fa-github</v-icon></span>Github</v-btn>
+          <v-btn flat href="https://respects-3b626.firebaseapp.com/about" color="lime">Demo</v-btn>
         </v-card-actions>
       <!-- </v-responsive> -->
     </v-card>
